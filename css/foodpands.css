@@ -1,0 +1,279 @@
+*{
+	margin: 0px;
+    padding: 0px 3px;
+    box-sizing: border-box;
+}
+/* navbar css */
+nav{
+	background: white;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 60px;
+}
+.logo img{
+	width: 156px;
+	height: 68px;
+}
+.menu a{
+	text-decoration: none;
+	color: #d75fb4;
+	font-size: 18px;
+	margin: 0 5px;
+}
+/*banner css */
+
+.banner{
+	background: url(../images/foodpanda.jpg);
+	width: 100%;
+	height: 529px;
+	background-position: center;
+	background-size: cover;
+}
+.banner h1{
+	text-align: center;
+    color: white;
+    font-size: 40px;
+    /*background: blue;*/
+    margin: auto;
+    width: 57%;
+    position: relative;
+    top: 55%;
+
+}
+.c{
+	background: rgb(0 0 0 / 30%);
+	width: 100%;
+	height: 62px;
+	margin-top: -13px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 64px;
+}
+
+.c h4{
+	/*font-family: "museo-sans", ui-sans-serif;*/
+	color: white;
+	text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding-right: 10px;
+    font-family: "museo-sans", sans-serif;
+    /*display: flex;*/
+}
+
+
+.c img{
+	margin: 0 6px;
+	height: 30px;
+	width: auto;
+	/*display: flex;*/
+}
+
+.about{
+	    /*background-color: red;*/
+    text-align: center;
+    padding: 136px 398px 170px;
+}
+
+.about h2{
+	margin: 0 0 20px;
+    text-transform: uppercase;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #d70f64;
+    text-align: center;
+}
+
+.about p{
+	margin: 0px -106px 10px;
+    color: #333333a8;
+    font-size: 22px;
+    font-family: "museo-sans", sans-serif;
+    line-height: 1.6;
+}
+
+.about button{
+	color: #fff;
+    background-color: #d70f64;
+    font-weight: 500;
+    width: 39%;
+    min-width: 160px;
+    height: 49px;
+}
+
+.careers{
+	background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-rider-opt.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    padding: 141px 338px 0 281px;
+    margin: 6px;
+    background-attachment: fixed;
+}
+
+.mono-md{
+	/*background-color: red;*/
+    text-align: center;
+    padding: 65px 67px 61px;
+    width: 92%;
+    margin: auto;
+}
+
+.mono-md h2{
+	margin: 0 0 20px;
+    text-transform: uppercase;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #d70f64;
+}
+
+.mono-md p{
+	margin: 0 0 35px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+
+.mono-md button{
+	color: #fff;
+    background-color: #d70f64;
+    font-weight: 500;
+    width: 39%;
+    min-width: 160px;
+    height: 49px;
+}
+
+.press{
+	background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-tuna-opt-scaled.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    padding: 141px 338px 0 281px;
+    margin: 6px;
+    background-attachment: fixed;
+}
+
+.vtr{
+	text-align: center;
+    padding: 65px 67px 61px;
+    width: 92%;
+    margin: auto;
+}
+
+.vtr h2{
+	margin: 0 0 20px;
+    text-transform: uppercase;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #d70f64;
+}
+
+.vtr p{
+	margin: 0 0 35px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.vtr button{
+	color: #fff;
+    background-color: #d70f64;
+    font-weight: 500;
+    width: 39%;
+    min-width: 160px;
+    height: 49px;
+}
+
+.contact{
+	  background-color: #d70f64;
+    text-align: center;
+    padding: 319px 398px 370px;
+}
+
+.contact h2{
+	margin: 0 0 40px;
+    text-transform: uppercase;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+
+.contact p{
+	margin: 0px -106px 43px;
+    color: white;
+    font-size: 22px;
+    font-family: "museo-sans", sans-serif;
+    line-height: 1.6;
+}
+
+.contact button{
+	color: #d70f64;
+    background-color: white;
+    font-weight: 500;
+    width: 39%;
+    min-width: 160px;
+    height: 49px
+}
+
+.footer{
+    width: 51%;
+    height: 150px;
+    box-sizing: border-box;
+}
+.footer img{
+    width: 204px;
+    height: 79px;
+    margin-left: 66px;
+    padding-top: 36px;
+}
+.footer p{
+    margin: 0 0 0 73px;
+    justify-content: flex-start;
+    font-weight: 200;
+    font-size: 18px;
+     color: #333;
+    
+}
+.footericon{
+    display: flex;
+    justify-content: flex-end;
+}
+.footericon img{
+    width: 50px;
+    height: 40px;
+    margin-right: 47px;
+    margin-left: -50px;
+}
+.footericon a{
+
+	justify-content: flex-end;
+	margin-top: -112px;
+
+}
+.footerp{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 34px;
+}
+.footerp p{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: -59px;
+    color: #333;
+	font-family: "Nunito", sans-serif;
+}
+.footerp a{
+    text-decoration: none;
+}
